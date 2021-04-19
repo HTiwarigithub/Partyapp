@@ -6,7 +6,7 @@ module.exports.paytmCheckSum = (req,res) => {
     var paramarray = {};
     paramarray['MID'] = req.body.mid; //Provided by Paytm
     paramarray['ORDER_ID'] = req.body.order_id; //unique OrderId for every request
-    paramarray['CUST_ID'] = req,body.cust_id;  // unique customer identifier 
+    paramarray['CUST_ID'] = req.body.cust_id;  // unique customer identifier 
     paramarray['INDUSTRY_TYPE_ID'] ='Retail'; //Provided by Paytm
     paramarray['CHANNEL_ID'] = 'WAP'; //Provided by Paytm
     paramarray['TXN_AMOUNT'] = req.body.txn_amount; // transaction amount

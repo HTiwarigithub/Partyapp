@@ -101,7 +101,7 @@ router.post('/Category/addCategory',upload.single('file'),category.addCategory);
 router.get('/Category/getCategory',category.getCategory);
 router.post('/Category/editCategory',category.editCategory);
 router.post('/Category/deleteCategory',category.deleteCategory);
-router.post('/Product/addproduct',upload.single('file'),product.addproduct);
+router.post('/Product/addproduct',upload.single('file'),product.addproduct);    
 router.post('/Product/getProductList',product.getProductList);
 // router.post('/Product/getProduct',product.getProduct);/
 router.post('/Product/editProduct',product.editProduct);
